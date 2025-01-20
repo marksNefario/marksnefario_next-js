@@ -65,28 +65,9 @@ const ButtonSocialMediaIcon = styled.a`
 export default function SocialNetworkRowStack() {
 	return (
 		<SocialMediaContainer>
-			<ButtonSocialMediaIcon href="https://www.facebook.com/glayson.visgueira" target="_blank">
-				<Facebook />
-			</ButtonSocialMediaIcon>
 
 			<ButtonSocialMediaIcon href="https://github.com/Glaysonvisgueira" target="_blank">
 				<Github />
-			</ButtonSocialMediaIcon>
-
-			<ButtonSocialMediaIcon href="mailto:glaysonwow@gmail.com" target="_blank">
-				<MailSend />
-			</ButtonSocialMediaIcon>
-
-			<ButtonSocialMediaIcon href="https://wa.me/5586999277101/?text=Olá%20Glayson,%20tudo%20bem?%20Vim através de sua página pessoal!" target="_blank">
-				<LogoWhatsapp />
-			</ButtonSocialMediaIcon>
-
-			<ButtonSocialMediaIcon href="https://t.me/glayson_visgueira" target="_blank">
-				<Telegram />
-			</ButtonSocialMediaIcon>
-
-			<ButtonSocialMediaIcon href="https://www.instagram.com/glayson_visgueira" target="_blank">
-				<Instagram />
 			</ButtonSocialMediaIcon>
 
 			<ButtonSocialMediaIcon href="https://www.linkedin.com/in/glayson-visgueira-7433a61b3/" target="_blank" data-splitbee-event="linkedin-access">

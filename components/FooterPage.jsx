@@ -298,24 +298,6 @@ export default function FooterPage(props) {
 					</SectionFooterMenu>
 				</ScrollAnimation>
 
-				<ScrollAnimation animateIn="fadeIn" animateOnce delay={600}>
-					<SectionFooterMenu>
-						<FooterTextTitle>{language.footer.labelTechs.title}</FooterTextTitle>
-
-						<FooterTextExternalLink href="https://pt-br.reactjs.org/" target="_blank">
-							React.Js
-						</FooterTextExternalLink>
-
-						<FooterTextExternalLink href="https://nextjs.org/" target="_blank">
-							Next.Js
-						</FooterTextExternalLink>
-
-						<FooterTextExternalLink href="https://styled-components.com/" target="_blank">
-							Styled components
-						</FooterTextExternalLink>
-					</SectionFooterMenu>
-				</ScrollAnimation>
-
 				<ScrollAnimation animateIn="fadeIn" animateOnce delay={800}>
 					<SectionFooterMenu>
 						<FooterTextTitle>{language.footer.labelStats.title}</FooterTextTitle>

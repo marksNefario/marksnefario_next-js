@@ -5,8 +5,8 @@ import SobreMimPage from "./sobre-mim";
 import PortfolioPage from "./portfolio";
 import ExperienciaPage from "./experiencia";
 import HomePage from "./homepage";
-import Faq from "./faq";
-import Testimonials from "./Testimonials";
+//import Faq from "./faq";
+//import Testimonials from "./Testimonials";
 
 //Components
 import ServicesOffer from "@/components/ServicesOffer";
@@ -19,10 +19,10 @@ export default function Index() {
 	function ConsoleMessage() {
 		console.log(
 			"%c██   ██ ███████ ██      ██       ██████      ██████  ███████ ██    ██ ███████ ██       ██████  ██████  ███████ ██████  ██\n" +
-				"%c██   ██ ██      ██      ██      ██    ██     ██   ██ ██      ██    ██ ██      ██      ██    ██ ██   ██ ██      ██   ██ ██\n" +
-				"%c███████ █████   ██      ██      ██    ██     ██   ██ █████   ██    ██ █████   ██      ██    ██ ██████  █████   ██████  ██\n" +
-				"%c██   ██ ██      ██      ██      ██    ██     ██   ██ ██       ██  ██  ██      ██      ██    ██ ██      ██      ██   ██   \n" +
-				"%c██   ██ ███████ ███████ ███████  ██████      ██████  ███████   ████   ███████ ███████  ██████  ██      ███████ ██   ██ ██",
+			"%c██   ██ ██      ██      ██      ██    ██     ██   ██ ██      ██    ██ ██      ██      ██    ██ ██   ██ ██      ██   ██ ██\n" +
+			"%c███████ █████   ██      ██      ██    ██     ██   ██ █████   ██    ██ █████   ██      ██    ██ ██████  █████   ██████  ██\n" +
+			"%c██   ██ ██      ██      ██      ██    ██     ██   ██ ██       ██  ██  ██      ██      ██    ██ ██      ██      ██   ██   \n" +
+			"%c██   ██ ███████ ███████ ███████  ██████      ██████  ███████   ████   ███████ ███████  ██████  ██      ███████ ██   ██ ██",
 			"color: #FCD434;",
 			"color: #FCD434;",
 			"color: #FCD434;",
@@ -53,8 +53,7 @@ export default function Index() {
 			<CarrouselTechsDivContainer direction="left" />
 			<PortfolioPage />
 			<ExperienciaPage />
-			<Testimonials />
-			<Faq />
+
 			<FooterPage />
 		</>
 	);
