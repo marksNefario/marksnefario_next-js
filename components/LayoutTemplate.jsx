@@ -6,8 +6,8 @@ import styled from "styled-components";
 import Fade from "react-reveal/Fade";
 
 //Custom components
-import SwitchThemeButton from "@/components/SwitchThemeButton";
-import LanguageSwitchButton from "@/components/LanguageSwitchButton";
+//import SwitchThemeButton from "@/components/SwitchThemeButton";
+//import LanguageSwitchButton from "@/components/LanguageSwitchButton";
 
 //Context
 import { SettingsContext } from "@/context/SettingsContext";
@@ -202,16 +202,10 @@ export default function LayoutTemplate({ children }) {
 							</Link>
 						</Fade>
 					</div>
-					<Fade top delay={500} duration={200}>
-						<LanguageSwitchButton />
-						{/* <SwitchThemeButton /> */}
-					</Fade>
+
 				</NavbarOptionContainer>
 
-				<SwitchMenuContainer>
-					<LanguageSwitchButton />
-					{/* <SwitchThemeButton /> */}
-				</SwitchMenuContainer>
+
 			</HeaderContainer>
 
 			<Main>

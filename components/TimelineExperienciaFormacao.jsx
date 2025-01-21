@@ -100,29 +100,6 @@ export default function TimelinePortifolio(props) {
 				className="vertical-timeline-element--work"
 				contentStyle={{ borderBottom: `4px solid ${theme.colors.branding}`, boxShadow: "0px 0px 0px 0px #ccc", backgroundColor: theme.colors.backgroundSecondary }}
 				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
-				icon={<SchoolIcon />}
-				contentArrowStyle={{
-					borderRight: `7px solid ${theme.colors.backgroundSecondary}`,
-				}}>
-				<TimelineContent>
-					<h3 style={{ color: theme.colors.branding, padding: "2px 8px", borderRadius: "4px", border: `2px solid ${theme.colors.branding}`, marginBottom: "10px" }}>2021</h3>
-					<BoldText>
-						{language.experiencePage.timeline.labelInstitution}: <span>Odessa Polytechnic National University</span>
-					</BoldText>
-					<BoldText>
-						{language.experiencePage.timeline.labelCategory}: <span>Master's Degree</span>
-					</BoldText>
-					<BoldText>
-						{language.experiencePage.timeline.labelTitle}: <span>Cybersecurity</span>
-					</BoldText>
-				</TimelineContent>
-			</VerticalTimelineElement>
-
-
-			<VerticalTimelineElement
-				className="vertical-timeline-element--work"
-				contentStyle={{ borderBottom: `4px solid ${theme.colors.branding}`, boxShadow: "0px 0px 0px 0px #ccc", backgroundColor: theme.colors.backgroundSecondary }}
-				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
 				icon={<WorkIcon />}
 				contentArrowStyle={{
 					borderRight: `7px solid ${theme.colors.backgroundSecondary}`,
@@ -130,51 +107,14 @@ export default function TimelinePortifolio(props) {
 				<TimelineContent>
 					<h3 style={{ color: theme.colors.branding, padding: "2px 8px", borderRadius: "4px", border: `2px solid ${theme.colors.branding}`, marginBottom: "10px" }}>2021</h3>
 					<BoldText>
-						{language.experiencePage.timeline.labelCompany}: <span>Armazém Paraíba</span>
+						{language.experiencePage.timeline.labelCompany}: <span>OS-System</span>
 					</BoldText>
 					<BoldText>
-						{language.experiencePage.timeline.labelPosition}: <span>Desenvolvedor de software</span>
+						{language.experiencePage.timeline.labelPosition}: <span>Software Developer</span>
 					</BoldText>
 				</TimelineContent>
 			</VerticalTimelineElement>
 
-			<VerticalTimelineElement
-				className="vertical-timeline-element--work"
-				contentStyle={{ borderBottom: `4px solid ${theme.colors.branding}`, boxShadow: "0px 0px 0px 0px #ccc", backgroundColor: theme.colors.backgroundSecondary }}
-				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
-				icon={<WorkIcon />}
-				contentArrowStyle={{
-					borderRight: `7px solid ${theme.colors.backgroundSecondary}`,
-				}}>
-				<TimelineContent>
-					<h3 style={{ color: theme.colors.branding, padding: "2px 8px", borderRadius: "4px", border: `2px solid ${theme.colors.branding}`, marginBottom: "10px" }}>2024</h3>
-					<BoldText>
-						{language.experiencePage.timeline.labelCompany}: <span>Go Apice</span>
-					</BoldText>
-					<BoldText>
-						{language.experiencePage.timeline.labelPosition}: <span>Desenvolvedor de software</span>
-					</BoldText>
-				</TimelineContent>
-			</VerticalTimelineElement>
-
-			<VerticalTimelineElement
-				className="vertical-timeline-element--work"
-				contentStyle={{ borderBottom: `4px solid ${theme.colors.branding}`, boxShadow: "0px 0px 0px 0px #ccc", backgroundColor: theme.colors.backgroundSecondary }}
-				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
-				icon={<WorkIcon />}
-				contentArrowStyle={{
-					borderRight: `7px solid ${theme.colors.backgroundSecondary}`,
-				}}>
-				<TimelineContent>
-					<h3 style={{ color: theme.colors.branding, padding: "2px 8px", borderRadius: "4px", border: `2px solid ${theme.colors.branding}`, marginBottom: "10px" }}>2024</h3>
-					<BoldText>
-						{language.experiencePage.timeline.labelCompany}: <span>SEMARH - Secretaria do Meio Ambiente e Recursos Hídricos</span>
-					</BoldText>
-					<BoldText>
-						{language.experiencePage.timeline.labelPosition}: <span>Desenvolvedor de software</span>
-					</BoldText>
-				</TimelineContent>
-			</VerticalTimelineElement>
 		</VerticalTimeline>
 	);
 }

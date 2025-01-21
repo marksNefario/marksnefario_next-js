@@ -387,7 +387,7 @@ export default function Portifolio() {
 			// 	typeProject: ["BACKEND"],
 			// 	created_at: "16/06/2019",
 			// },
-			{
+			/*{
 				id: 11,
 				title: language.portifolioPage.projects.id_11.title,
 				description: language.portifolioPage.projects.id_11.description,
@@ -612,7 +612,7 @@ export default function Portifolio() {
 				sourceCodeLink: null,
 				typeProject: ["FRONTEND"],
 				created_at: "01/09/2024",
-			},
+			},*/
 		],
 		[]
 	);
