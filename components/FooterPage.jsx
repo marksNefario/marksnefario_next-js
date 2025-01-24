@@ -22,7 +22,7 @@ const FooterContainer = styled.footer`
 
 	#grid {
 		display: grid;
-		grid-template-columns: repeat(5, 1fr);
+		grid-template-columns: repeat(4, 1fr);
 		grid-template-rows: 1fr;
 		grid-column-gap: 20px;
 		grid-row-gap: 0px;
@@ -292,7 +292,7 @@ export default function FooterPage(props) {
 				<ScrollAnimation animateIn="fadeIn" animateOnce delay={400}>
 					<SectionFooterMenu>
 						<FooterTextTitle>{language.footer.labelSourceCode.title}</FooterTextTitle>
-						<FooterTextExternalLink href="https://github.com/Glaysonvisgueira/glaysonvisgueira_next-js" target="_blank">
+						<FooterTextExternalLink href="https://github.com/marksNefario/marksnefario_next-js" target="_blank">
 							Github
 						</FooterTextExternalLink>
 					</SectionFooterMenu>

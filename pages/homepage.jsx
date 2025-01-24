@@ -167,9 +167,9 @@ export default function HomePage() {
 				<FloatNavigationBar />
 				<ProgressBar color={theme.colors.branding} height={5} />
 				<Head
-					title="Portfólio de projetos de programação"
-					metaDescription="Web portifólio de projetos de programação do Dev Glayson Visgueira."
-					keywords="Glayson Visgueira, Glayson, Visgueira, Programação, Portifólio, Dev, Programador, Developer, Desenvolvedor"
+					title="Programming Project Portfolio"
+					metaDescription="Web portfolio of programming projects by Vladyslav Hrytsyn."
+					keywords="Vladyslav Hrytsyn, Vladyslav, Hrytsyn, Programação, Programming, Portfolio, Dev, Programmer, Developer, Developer"
 				/>
 				<LandingPageContainer>
 					<TitleLandingContainer>

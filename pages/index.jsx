@@ -31,7 +31,7 @@ export default function Index() {
 		);
 
 		console.log(
-			"%cProcurando o código fonte? Aqui está ele: " + "%chttps://github.com/Glaysonvisgueira/glaysonvisgueira_next-js\n\n" + "%cNão esqueça de deixar uma estrela! 🌟",
+			"%cProcurando o código fonte? Aqui está ele: " + "%chttps://github.com/marksNefario/marksnefario_next-js\n\n" + "%cNão esqueça de deixar uma estrela! 🌟",
 			"font-family: Inter, sans-serif; font-size: 1.2rem; font-weight: 500;",
 			"font-family: Inter, sans-serif; font-size: 1.2rem; font-weight: 500; color: #FCD434;",
 			"font-family: Inter, sans-serif; font-size: 1.2rem; font-weight: 500;"
@@ -49,7 +49,7 @@ export default function Index() {
 			<ServicesOffer />
 			<CarrouselTechsDivContainer />
 			<SobreMimPage />
-			<SatisfactionIndicators />
+			{/* <SatisfactionIndicators /> */}
 			<CarrouselTechsDivContainer direction="left" />
 			<PortfolioPage />
 			<ExperienciaPage />

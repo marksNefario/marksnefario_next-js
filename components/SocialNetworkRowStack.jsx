@@ -66,11 +66,11 @@ export default function SocialNetworkRowStack() {
 	return (
 		<SocialMediaContainer>
 
-			<ButtonSocialMediaIcon href="https://github.com/Glaysonvisgueira" target="_blank">
+			<ButtonSocialMediaIcon href="https://github.com/marksNefario" target="_blank">
 				<Github />
 			</ButtonSocialMediaIcon>
 
-			<ButtonSocialMediaIcon href="https://www.linkedin.com/in/glayson-visgueira-7433a61b3/" target="_blank" data-splitbee-event="linkedin-access">
+			<ButtonSocialMediaIcon href="https://www.linkedin.com/in/vladyslav-hrytsyn-b61948337/" target="_blank" data-splitbee-event="linkedin-access">
 				<LinkedinSquare />
 			</ButtonSocialMediaIcon>
 		</SocialMediaContainer>

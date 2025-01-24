@@ -167,7 +167,7 @@ export default function Portifolio() {
 						<Robot />
 					</Tooltip>,
 				],
-				sourceCodeLink: "https://github.com/Glaysonvisgueira/jfuzzylogic_irrigador",
+				sourceCodeLink: "/jfuzzylogic_irrigador",
 				typeProject: ["BACKEND"],
 				created_at: "09/06/2019",
 			},

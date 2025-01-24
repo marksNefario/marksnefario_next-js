@@ -13,7 +13,7 @@ import SocialNetworkRowStack from "@/components/SocialNetworkRowStack";
 import TitleSection from "@/components/TitleSection";
 
 //PDFs
-import curriculoPTBR from "../public/pdf/curriculo-ptbr.pdf";
+import curriculoPTBR from "../public/pdf/VladyslavHrytsynResume.pdf";
 
 const WrapperAboutMe = styled.div`
 	display: flex;
@@ -288,25 +288,9 @@ export default function SobreMim(props) {
 									<Image src="/img/user-photo.jpg" alt={language.aboutMePage.alt_dev_img} layout="fill" objectFit="cover" className="image-rounded" />
 								</div>
 								<div className="content">
-									<h3>{githubUserData?.name}</h3>
-									<a href={githubUserData?.html_url} target="_blank" rel="noreferrer">
-										@{githubUserData?.login}
-									</a>
+									<h3>Vladyslav Hrytsyn</h3>
 									<p>{language.aboutMePage.github_card.bio}</p>
-									<div className="github-stats">
-										<div className="stats">
-											<p>{githubUserData?.followers}</p>
-											<span>{language.aboutMePage.github_card.followers}</span>
-										</div>
-										<div className="stats">
-											<p>{githubUserData?.following}</p>
-											<span>{language.aboutMePage.github_card.following}</span>
-										</div>
-										<div className="stats">
-											<p>{githubUserData?.public_repos}</p>
-											<span>{language.aboutMePage.github_card.repos}</span>
-										</div>
-									</div>
+
 								</div>
 							</GithubStatsCard>
 						</ScrollAnimation>
