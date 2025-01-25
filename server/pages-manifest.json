@@ -1,13 +1,13 @@
 {
   "/_app": "pages/_app.js",
-  "/experiencia": "pages/experiencia.html",
-  "/Testimonials": "pages/Testimonials.html",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/sobre-mim": "pages/sobre-mim.html",
+  "/experiencia": "pages/experiencia.html",
   "/faq": "pages/faq.html",
+  "/Testimonials": "pages/Testimonials.html",
+  "/homepage": "pages/homepage.html",
   "/": "pages/index.html",
   "/portfolio": "pages/portfolio.html",
-  "/homepage": "pages/homepage.html",
+  "/sobre-mim": "pages/sobre-mim.html",
   "/404": "pages/404.html"
 }
