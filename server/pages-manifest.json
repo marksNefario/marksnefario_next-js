@@ -1,11 +1,11 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/Testimonials": "pages/Testimonials.html",
   "/experiencia": "pages/experiencia.html",
   "/faq": "pages/faq.html",
   "/homepage": "pages/homepage.html",
+  "/_error": "pages/_error.js",
   "/": "pages/index.html",
   "/portfolio": "pages/portfolio.html",
   "/sobre-mim": "pages/sobre-mim.html",
