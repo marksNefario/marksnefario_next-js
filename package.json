@@ -1,12 +1,15 @@
 {
 	"name": "ladyslavhrytsyn",
+	"homepage": "https://marksNefario.github.io/marksnefario_next-js",
 	"version": "2.0.2",
 	"private": true,
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
-		"lint": "next lint"
+		"lint": "next lint",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d .next"
 	},
 	"dependencies": {
 		"@emotion/react": "^11.9.0",
