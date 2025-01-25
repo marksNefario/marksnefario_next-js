@@ -2,12 +2,12 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/faq": "pages/faq.html",
-  "/experiencia": "pages/experiencia.html",
-  "/homepage": "pages/homepage.html",
   "/Testimonials": "pages/Testimonials.html",
+  "/experiencia": "pages/experiencia.html",
+  "/faq": "pages/faq.html",
+  "/homepage": "pages/homepage.html",
   "/": "pages/index.html",
-  "/sobre-mim": "pages/sobre-mim.html",
   "/portfolio": "pages/portfolio.html",
+  "/sobre-mim": "pages/sobre-mim.html",
   "/404": "pages/404.html"
 }
